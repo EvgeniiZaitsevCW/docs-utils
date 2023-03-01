@@ -32,6 +32,8 @@ async function categorizeAddresses(
       eoas.push(address);
     }
   }
+  contracts.sort();
+  eoas.sort();
   return { contracts, eoas };
 }
 
