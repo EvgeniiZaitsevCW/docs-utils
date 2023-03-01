@@ -44,7 +44,9 @@ The operations that can be done using these utilities:
    npm run normalize_addresses <file_path>
    ```
 
-4. To categorize addresses in a file put all known contract addresses in the [data/contracts.txt](data/contracts.txt) file and run:
+4. To categorize addresses in a file:
+   * put all known contract addresses in the [data/contracts.txt](data/contracts.txt) file, be sure the last line is empty;
+   * then run:
    ```bash
    npm run categorize_addresses <file_path>
    ```
